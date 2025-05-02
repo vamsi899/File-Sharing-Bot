@@ -34,7 +34,7 @@
       "FORCE_SUB_CHANNEL": {
         "description": "id of the channel or group, if you want enable force sub feature else put 0",
         "value": "-1002024495069",
-        "required": false
+        "required": true
       },
       "DB_URL": {
           "description": "Your Mongo DB Database URL",
@@ -44,22 +44,22 @@
       "DB_NAME":{ 
           "description":"Your Mongo DB Database Name",
           "value": "Cluster0",
-          "required": false
+          "required": true
       },
       "START_MESSAGE": {
         "description": "Optional: start message of bot, use HTML parsemode format",
         "value": "Hello {mention}\n\nI am File Store bot Created by 𝐕𝐚𝐦𝐬𝐢 🐦‍🔥. He Can only Use me.",
-        "required": false
+        "required": true
       },
       "FORCE_SUB_MESSAGE": {
         "description": "Optional: Force Sub message of bot, use HTML parsemode format",
         "value": "Hello {mention}\n\n<b>You Need To Join In My Channel To Use Me\n\nKindly Please Join Channel</b>",
-        "required": false
+        "required": true
       },
       "ADMINS": {
         "description": "A space separated list of user_ids of Admins, they can only create links",
-        "value": "",
-        "required": false
+        "value": "6828129421",
+        "required": true
       },
       "PROTECT_CONTENT": {
         "description": "Protect contents from getting forwarded",
